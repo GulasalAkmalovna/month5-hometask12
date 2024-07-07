@@ -1,0 +1,34 @@
+.card{
+    width: 250px;
+    height: 320px;
+    border-radius: 10px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(47, 116, 244);
+}
+.card:hover{
+    color: #fff;
+    transform: scale(1.2);
+    transition: 0.3s;
+    background-color: rgb(47, 116, 244);
+}
+.btn{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;   
+    background-color: rgb(132, 164, 225);
+}
+.btn:hover{
+    color: #fff;
+}
+.image{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
